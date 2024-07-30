@@ -5,7 +5,7 @@ X-Twitter Clone is a Web application that replicates the basic functionalities o
 
 ## Installation
 
-1. https://github.com/Divakar-Das/x-twitter-clone.git
+1. https://github.com/Divakar-Das/x-clone.git
 
 ### cd twitter-clone
 ### npm install
