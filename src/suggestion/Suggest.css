@@ -1,0 +1,177 @@
+.suggest {
+    /* flex: 0.8; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-y: scroll;
+    margin-right: auto;
+    padding-right: auto;
+}
+
+.search-input-box {
+    background-color: black;
+    padding: 8px auto;
+    height: 55px;
+    position: sticky;
+    display: flex;
+    top: 0;
+    z-index: 100;
+}
+
+.search_icon {
+    color: gray;
+    position: relative;
+    top: 20px;
+    left: 45px;
+    z-index: 999;
+}
+
+.suggest_input input {
+    position: relative;
+    bottom: 20px;
+    width: 107%;
+    display: flex;
+    border-radius: 30px;
+    padding: 12px 15px 12px 50px;
+    margin: 3px 10px 5px 30px;
+    outline: none;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 17px;
+    position: relative;
+    outline: none;
+    font-weight: 400;
+    border: none;
+    background-color: rgba(211, 211, 211, 0.178);
+}
+
+.suggest_input input:focus {
+    border: 1px solid rgb(52, 97, 182);
+    background-color: black;
+    color: white;
+}
+
+
+.suggest_container {
+    border: 1px solid rgba(255, 255, 255, 0.336);
+    border-radius: 15px;
+    padding: 10px 5px;
+    width: 90%;
+    margin: 25px 5px 5px 30px;
+}
+
+.suggest_container h2 {
+    font-size: 20px;
+    margin: 20px 0;
+    padding: 5px 20px;
+}
+
+.add_content {
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 5px auto;
+    transition: al ease 0.3s;
+}
+
+
+
+.add_content:hover {
+    background-color: rgba(255, 255, 255, 0.041);
+}
+.add_content img {
+    width: 80px;
+    height: 70px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+.add_content p {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.add_content p span {
+    letter-spacing: 0px;
+    font-weight: normal;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.459);
+    padding: 10px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hastags {
+    margin: 5px 0;
+    width: 100%;
+    padding: 10px 20px;
+    transition: al ease 0.3s;
+}
+
+.hastags:hover {
+    background-color: rgba(255, 255, 255, 0.041);
+}
+
+.hastags h3 {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.hastags p {
+    color: rgba(255, 255, 255, 0.514);
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.hastags2 {
+    margin: 5px 0;
+    padding: 10px 20px;
+    width: 100%;
+    transition: al ease 0.3s;
+}
+
+.hastags2:hover {
+    background-color: rgba(255, 255, 255, 0.041);
+}
+
+.hastags2 h3 {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.hastags2 .header {
+    color: rgba(255, 255, 255, 0.514);
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.hastags2 h5 {
+    color: rgba(255, 255, 255, 0.514);
+    font-size: 13px;
+}
+
+.suggest::-webkit-scrollbar {
+    border-radius: 3px;
+}
+
+.suggest {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Track */
+/* .suggest:-webkit-scrollbar-track {
+    background: #302f2f; 
+  }
+   
+
+  .suggest::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  .suggest::-webkit-scrollbar-thumb:hover {
+    background: #616161; 
+  } */

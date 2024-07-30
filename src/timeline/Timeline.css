@@ -1,0 +1,39 @@
+.timeline{
+    /* flex: 0.4; */
+    border-right: 1px solid rgba(255, 255, 255, 0.342);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 660px;
+    min-width: 500px;
+    overflow-y: scroll;
+}
+.inner-menu{
+    margin: 0 auto;
+    justify-content: space-around;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.301);
+    
+}
+.inner-menu p{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    cursor: pointer;
+    font-weight: bold;
+    width: 350px;
+    height: 50px;   
+}
+.inner-menu p:hover{
+    background-color: rgba(211, 211, 211, 0.11);
+}
+.timeline::-webkit-scrollbar{
+    display: none;
+}
+.timeline{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

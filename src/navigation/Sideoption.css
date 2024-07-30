@@ -1,0 +1,21 @@
+.sideoption{
+    width: auto;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 50px;
+    padding: 13px 10px;
+    margin-bottom: 2px;
+    color: white;
+    border-radius: 25px;
+    transition: all ease-out 0.3s;
+}
+
+.sideoption:hover{
+    background-color: var(--backgroundhover--);
+}
+.sideoption > h4{
+    font-weight: 500;
+    font-size:20px;
+    margin-left: 15px;
+}

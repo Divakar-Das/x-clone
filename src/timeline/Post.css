@@ -1,0 +1,85 @@
+.post{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    cursor: pointer;
+    transition: al ease 0.3s;
+}   
+.post:hover{
+    background-color: rgba(255, 255, 255, 0.041);
+}
+/*----- avatar------- */
+.post_img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px 15px;
+}
+/* ------------------ */
+.post_body img{
+    max-width: 500px;
+    border-radius: 20px;
+    padding-right: 10px;
+}
+.post-badge{
+    color: rgb(0, 140, 255);
+    padding-top: 8px;
+}
+.post_header_text p{
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.post_header_text p span{
+    color: rgba(255, 255, 255, 0.308);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+
+.post_foot{
+ display: flex;
+ justify-content: space-between;
+ margin-top: 10px;
+ color: rgba(255, 255, 255, 0.459);
+ margin-right: 10px;
+ transition: all ease 0.3;
+ cursor: pointer;
+}
+
+.message:hover{
+    color: rgb(14, 71, 177);
+}
+.message-green:hover{
+    color: rgb(12, 204, 76);
+}
+.message-like:hover{
+    color: rgb(177, 14, 68);
+}
+
+
+.download-btn{
+    margin-left: -80px;
+}
+
+.post_headerdisp{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.post_body{
+     width: 89%;
+}
+.post_headerdisp .links{
+    color: rgb(3, 95, 170);
+    font-size: 14px;
+    padding: 5px 0;
+    margin: 5px 0;
+    cursor: pointer;
+}
